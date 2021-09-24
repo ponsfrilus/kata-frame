@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h3>Example 1</h3>
+  <pre>
+    Input:
+      rect = {x:"150", y:"25", width:"325", height:"250"}
+      circ = {cx:"150", cy:"350", r:"125"}
+    Output:
+      {x:"25", y:"25", width:"450", height:"450"}
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="black" fill="transparent" stroke-width="1"/>
+    <!-- base rect -->
+    <rect x="150" y="25" width="325" height="250" fill="lightblue" />
+    <!-- base circle -->
+    <circle cx="150" cy="350" r="125" fill="pink" />
+    <!-- FRAME -->
+    <rect x="25" y="25" width="450" height="450" stroke="black" fill="transparent" stroke-width="1"/>
+  </svg>
+
+  <h3>Example 2</h3>
+  <pre>
+    Input:
+      rect = {x:"425", y:"425", width:"50", height:"50"}
+      circ = {cx:"125", cy:"125", r:"100"}
+    Output:
+      {x:"25", y:"25", width:"450", height:"450"}
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="black" fill="transparent" stroke-width="1"/>
+    <!-- base rect -->
+    <rect x="425" y="425" width="50" height="50" fill="lightblue" />
+    <!-- base circle -->
+    <circle cx="125" cy="125" r="100" fill="pink" />
+    <!-- FRAME -->
+    <rect x="25" y="25" width="450" height="450" stroke="black" fill="transparent" stroke-width="1"/>
+  </svg>
+
+  <h3>Example 3</h3>
+  <pre>
+    Input:
+      rect = {x:"25", y:"25", width:"450", height:"450"}
+      circ = {cx:"250", cy:"250", r:"125"}
+    Output:
+      {x:"25", y:"25", width:"450", height:"450"}
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="black" fill="transparent" stroke-width="1"/>
+    <!-- base rect -->
+    <rect x="25" y="25" width="450" height="450" fill="lightblue" />
+    <!-- base circle -->
+    <circle cx="250" cy="250" r="125" fill="pink" />
+    <!-- FRAME -->
+    <rect x="25" y="25" width="450" height="450" stroke="black" fill="transparent" stroke-width="1"/>
+  </svg>
+
+  <h3>Example 4</h3>
+  <pre>
+    Input:
+      rect = {x:"75", y:"125", width:"350", height:"250"}
+      circ = {cx:"250", cy:"250", r:"225"}
+    Output:
+      {x:"25", y:"25", width:"450", height:"450"}
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="black" fill="transparent" stroke-width="1"/>
+    <!-- base circle -->
+    <circle cx="250" cy="250" r="225" fill="pink" />
+    <!-- base rect -->
+    <rect x="75" y="125" width="350" height="250" fill="lightblue" />
+    <!-- FRAME -->
+    <rect x="25" y="25" width="450" height="450" stroke="black" fill="transparent" stroke-width="1"/>
+  </svg>
+
+  <h3>Example 5</h3>
+  <pre>
+    Input:
+      rect = {x:"175", y:"125", width:"50", height:"50"}
+      circ = {cx:"350", cy:"250", r:"50"}
+    Output:
+      {x:"125", y:"125", width:"225", height:"175"}
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="black" fill="transparent" stroke-width="1"/>
+    <!-- base rect -->
+    <rect x="175" y="125" width="50" height="50" fill="lightblue" />
+    <!-- base circle -->
+    <circle cx="350" cy="250" r="50" fill="pink" />
+    <!-- FRAME -->
+    <rect x="175" y="125" width="225" height="175" stroke="black" fill="transparent" stroke-width="1"/>
+  </svg>
+
+  <h3>Example 6</h3>
+  <pre>
+    Input:
+      rect = {x:"150", y:"25", width:"325", height:"250"}
+      circ = {cx:"150", cy:"350", r:"225"}
+    Output:
+      false
+  </pre>
+  <svg width="500" height="500">
+    <!-- Playground -->
+    <rect x="0" y="0" width="500" height="500" stroke="red" fill="transparent" stroke-width="1"/>
+    <!-- base rect -->
+    <rect x="150" y="25" width="325" height="250" fill="lightblue" />
+    <!-- base circle -->
+    <circle cx="150" cy="350" r="225" fill="pink" />
+  </svg>
+
+</body>
+</html> 
