@@ -112,6 +112,8 @@ Output:
 
 * La version de [@octocat](https://github.com/octocat) a été faite en `langage`
   et est disponible [ici](https://#).
+* La version de [@JaavLex](https://github.com/JaavLex) a été faite en `Javascript`
+  et est disponible [ici](https://jaavlex.github.io/kata-frame/).
 
 
 ## Pour aller plus loin
